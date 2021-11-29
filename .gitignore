@@ -1,0 +1,6 @@
+__pycache__/
+output/
+node/pwd.txt
+node/keystore/
+node/geth/
+solidity/NumberBet/output/
