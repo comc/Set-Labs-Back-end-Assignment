@@ -191,9 +191,9 @@ if __name__ == "__main__":
     # Load contract
     if os.path.exists(os.path.normpath(args.abi)):
         with open(os.path.normpath(args.abi)) as f:
-            contract = web3.eth.contract(address=args.address, abi=f.read())
+            contract = web3.eth.contract(address=args.contract, abi=f.read())
     else:
-        contract = web3.eth.contract(address=args.address, abi=args.abi)
+        contract = web3.eth.contract(address=args.contract, abi=args.abi)
 
     # Create output path if required
     if not os.path.isdir(args.output):
