@@ -13,7 +13,7 @@ Sample outputs from the back-end monitor can be found in the following files in 
 
 ## run_tests.py
 
-The following demonstrates sample output from the `tests/run_tests.py` script (note the script logs only to STDOUT on the command line):
+The following demonstrates sample output from the `tests/run_tests.py` script (note the script logs only to STDOUT on the command line). Transactions from this script also log to the files in the section above.
 
 ```sh
 [test_single_successful_bet]
